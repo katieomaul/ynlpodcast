@@ -23,9 +23,10 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #18d36e;
+  color: #C4391D;
   outline: none;
   text-decoration: none;
+  font-weight: 600;
 }
 
 p {
@@ -737,6 +738,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 20px 20px 20px;
 }
 
+/* Podcast Section
+--------------------------------*/
+
+#podcast {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/podcast-board-100.jpg) fixed center center;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+}
+
+#podcast .container {
+  position: relative;
+  z-index: 10;
+}
+
+
+
 /* Services Section
 --------------------------------*/
 
@@ -1352,7 +1369,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #13a456;
+  background: #111;
 }
 
 /*--------------------------------------------------------------
@@ -1504,7 +1521,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #13a456;
+  color: #111;
 }
 
 #footer .copyright {
