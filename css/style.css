@@ -738,11 +738,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 20px 20px 20px;
 }
 
-/* Podcast Section
+
+/* Playlist Section
 --------------------------------*/
 
 #podcast {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/podcast-board-100.jpg) fixed center center;
+  background-color: #111;
   background-size: cover;
   padding: 60px 0 40px 0;
 }
@@ -751,7 +752,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   z-index: 10;
 }
-
 
 
 /* Services Section
@@ -811,7 +811,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #call-to-action h3 {
   color: #C4391D;
-  font-size: 28px;
   font-weight: 700;
 }
 
@@ -830,7 +829,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #C4391D;
+  background: #111;
+  border: 2px solid #111;
   color: #C4391D;
 }
 
@@ -1075,7 +1075,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #clients {
-  padding: 10px 0 20px 0;
+  padding: 40px 0 20px 0;
 }
 
 #clients img {
